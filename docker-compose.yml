@@ -45,7 +45,7 @@ services:
     restart: always
     environment:
       - NGINX_PORT=443
-      - NGINX_CREDENTIALS
+      - NGINX_CREDENTIALS=drew:test_wt;user2:pass2;
     ports:
       - "80:80"
       - "443:443"
